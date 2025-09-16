@@ -69,8 +69,6 @@ public class WelcomeTest {
             Welcome welcome = new Welcome(fakeCalendar);
             Assertions.assertEquals("Bonsoir", welcome.getMessage());
         }
-
-
     }
 
     @Nested
@@ -162,7 +160,6 @@ public class WelcomeTest {
             Welcome welcome = new Welcome(fakeCalendar);
             Assertions.assertEquals("Bon week-end", welcome.getMessage());
         }
-
     }
 
     @Nested
@@ -191,7 +188,6 @@ public class WelcomeTest {
             Welcome welcome = new Welcome(fakeCalendar);
             Assertions.assertEquals("Bon week-end", welcome.getMessage());
         }
-
     }
 
     @Nested
@@ -220,6 +216,5 @@ public class WelcomeTest {
             Welcome welcome = new Welcome(fakeCalendar);
             Assertions.assertEquals("Bon week-end", welcome.getMessage());
         }
-
     }
 }
